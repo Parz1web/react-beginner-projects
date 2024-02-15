@@ -70,7 +70,7 @@ function App() {
   const question = questions[step];
 
   function onClickVar(index) {
-    if (question.correct == index) {
+    if (question.correct === index) {
       setCount(count + 1);
     }
     setStep(step + 1);
